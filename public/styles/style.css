@@ -1,0 +1,237 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+*{
+    box-sizing: border-box; /*ajuda a definir melhor o tamanho dos elementos do site*/
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+    
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px; 
+    
+}
+
+.titulo {
+    color:#32b9cd;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    color: #e3b062;
+}
+
+
+.navbar a{
+    color: #e3b062;
+    outline: none;
+    text-decoration: none;
+}
+
+.agora{
+    font-weight: bolder;
+}
+
+.banner{
+    height: 400px;
+    width: 100%;
+<<<<<<< HEAD
+    background-image: url('/home/heloisy/Documents/site-institucional/aquatech-somente-html/public/assets/imgs/bg-jelly-fish-para_outras_pags.png');
+=======
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+>>>>>>> 30ef246 (Feito index, login e cadastro)
+    background-size: cover;
+    
+}
+
+.banner .container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner .container p{
+    width: 170px;
+    color: white;
+    margin: 0;
+    font-size: 24px;
+
+
+}
+
+.banner .container p span{
+    font-weight: bold;
+}
+
+.social{
+    height: 400px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+.social .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    width: 80%;
+    display: flex;
+<<<<<<< HEAD
+    justify-content: center;
+    align-items: center;
+}
+=======
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box img{
+    width: 120px;
+    height: 120px;
+}
+
+.box h4{
+    margin:0;
+    margin-top: 10px;
+    color: #ed145b;
+}
+
+.footer{
+    height: 120px;
+    width: 100%;
+    background-color: #32b9cd;
+
+}
+
+.footer .container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.container h4{
+    margin-bottom: 0;
+}
+
+/*Aqui termina o index.html*/
+
+/*Aqui começa o login.html*/
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-image: url('../assets/imgs/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    height: 850px;
+    font-weight: bold;   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.login .container .card{
+     background-color: #dcdcdc;
+    border-radius: 10px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 96px 10px 96px 10px;
+}
+.login .container .card-login{
+        height: 350px;
+
+}
+
+.login .container .card h2,span{
+    color: #d97199;
+}
+
+.login .container .card-login h2{
+    font-size: 40px;
+}
+
+.login .container .campo{ 
+    display:flex ;
+    flex-direction: column;
+}
+
+.login .container .campo input{
+    width: 600px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 2px solid #32b9cd;
+    border-radius: 10px;
+    text-align: center;
+}
+.login .container .card #botao{
+        padding-left: 230px
+
+}
+.login .container .card .botao{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #ed145b;
+    font-weight: bold;
+    width: 140px;
+    height: 35px;
+    border: 0px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffff;
+    
+}
+
+
+
+/*Aqui termina o login.html*/
+
+/*Aqui começa o cadastro.html*/
+
+
+.login .container .card-cadastro{
+        height: 600px;
+
+}
+.login .container .card-cadastro h2{
+    font-size: 40px;
+
+}
+
+/*Aqui termina o cadastro.html*/
+>>>>>>> 30ef246 (Feito index, login e cadastro)
